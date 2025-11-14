@@ -4,8 +4,50 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
 </head>
 
-<body></body>
+<body>
+    <h1>Website Feedback Form</h1>
+
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">E-mail:</label><br>
+        <input type="text" id="email" name="email"><br>
+    </form>
+    
+    <form>
+        <p>How would you rate your experience?</p>
+        <input type="radio" id="excellent" name="excellent"> <label for="excellent">Excellent</label><br>
+        <input type="radio" id="good" name="good"> <label for="good">Good</label><br>
+        <input type="radio" id="poor" name="poor"> <label for="poor">Poor</label><br>
+    </form>
+
+    <form>
+        <p>Which features did you use?</p>
+        <p><option>Blog</option></p>
+        <p><option>Forum</option></p>
+        <p><option>Documentation</option></p>
+    </form>
+
+    <form>
+        <p>What would you like us to improve?</p>
+        <select>
+            Design
+            Colors
+            Functionality
+        </select>
+    </form>
+
+    <form>
+        <p>Additional Comments:</p>
+        <textarea>
+
+        </textarea>
+    </form>
+
+
+</body>
 
 </html>
